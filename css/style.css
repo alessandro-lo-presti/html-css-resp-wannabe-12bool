@@ -6,3 +6,11 @@ body {
 main img {
   height: 200px;
 }
+
+.row:first-child {
+  background-color: white;
+}
+
+.row {
+  background-color: #f9f9f9;
+}
