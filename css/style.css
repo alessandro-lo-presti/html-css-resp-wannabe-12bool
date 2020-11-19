@@ -112,7 +112,8 @@ footer .row:first-child li{
 }
 
 footer .logo {
-  padding-bottom: 20px;
+  padding-top: 5px;
+  vertical-align: middle;
 }
 
 footer .list {
