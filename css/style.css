@@ -2,16 +2,32 @@ body {
   text-align: center;
 }
 
+h2 {
+  font-size: 32px;
+}
+
+h2, h3 {
+  margin: 20px 0;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
 /* main */
 main img {
   height: 200px;
 }
 
-.row:first-child {
+main .row:first-child {
   background-color: white;
 }
 
-.row {
+main .row {
   background-color: #f9f9f9;
 }
 
