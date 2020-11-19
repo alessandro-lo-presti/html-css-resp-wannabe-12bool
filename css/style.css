@@ -31,6 +31,10 @@ a:hover {
   margin-top: 100px;
 }
 
+.pb-20px {
+  padding-bottom: 20px;
+}
+
 /* header */
 header {
   height: 80px;
@@ -78,6 +82,28 @@ main .row:last-child img {
 
 main hr {
   margin: 8px 0;
+}
+
+/* footer */
+footer {
+  background-color: #428bca;
+  color: white;
+}
+
+footer .row:first-child {
+  text-align: center;
+}
+
+footer .row:first-child ul{
+  margin: 20px 0 40px;
+}
+
+footer .row:first-child li{
+  margin-bottom: 5px;
+}
+
+footer .row:first-child hr{
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
