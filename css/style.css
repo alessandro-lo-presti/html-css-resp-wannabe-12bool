@@ -14,3 +14,7 @@ main img {
 .row {
   background-color: #f9f9f9;
 }
+
+hr {
+  margin: 8px 0;
+}
