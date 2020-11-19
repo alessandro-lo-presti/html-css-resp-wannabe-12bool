@@ -115,7 +115,7 @@ footer .logo {
 }
 
 footer .list {
-  text-align: right;
+  text-align: center;
 }
 
 footer .row:last-child li {
@@ -123,6 +123,8 @@ footer .row:last-child li {
   display: inline-block;
   font-size: 20px;
 }
+
+/* media-query */
 
 @media screen and (max-width: 768px) {
 
@@ -147,7 +149,6 @@ footer .row:last-child li {
   }
 
   footer .list {
-    text-align: center;
     padding: 0 10px 20px;
   }
 
