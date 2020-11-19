@@ -1,13 +1,26 @@
-body {
-  text-align: center;
-}
-
 h2 {
   font-size: 32px;
 }
 
 h2, h3 {
   margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mt-20 {
+  margin-top: 20px;
 }
 
 .mt-80 {
@@ -18,7 +31,32 @@ h2, h3 {
   margin-top: 100px;
 }
 
+/* header */
+header {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: #428bca;
+  color: white;
+}
+
+.logo {
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+header li {
+  padding: 0 10px;
+  display: inline-block;
+}
+
 /* main */
+main {
+  text-align: center;
+}
+
 main img {
   height: 200px;
 }
@@ -40,4 +78,19 @@ main .row:last-child img {
 
 main hr {
   margin: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  header {
+    text-align: center;
+  }
+
+  .logo {
+    padding-left: 0px;
+  }
+
+  .list {
+    display: none;
+  }
 }
