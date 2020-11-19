@@ -19,6 +19,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.logo {
+  padding-left: 10px;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -46,9 +50,8 @@ header {
   color: white;
 }
 
-.logo {
+header .logo {
   padding-top: 13px;
-  padding-left: 10px;
 }
 
 header li {
@@ -90,20 +93,35 @@ footer {
   color: white;
 }
 
+footer hr {
+  color: white;
+  margin: 40px auto;
+}
+
 footer .row:first-child {
   text-align: center;
 }
 
 footer .row:first-child ul{
-  margin: 20px 0 40px;
+  margin: 20px 0;
 }
 
 footer .row:first-child li{
   margin-bottom: 5px;
 }
 
-footer .row:first-child hr{
-  color: white;
+footer .logo {
+  padding-bottom: 20px;
+}
+
+footer .list {
+  text-align: right;
+}
+
+footer .row:last-child li {
+  padding: 15px 10px 0;
+  display: inline-block;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -112,11 +130,25 @@ footer .row:first-child hr{
     text-align: center;
   }
 
-  .logo {
+  header .logo {
     padding-left: 0px;
   }
 
-  .list {
+  header .list {
     display: none;
   }
+
+  footer hr {
+    margin: 20px auto;
+  }
+
+  footer .logo {
+    display: none;
+  }
+
+  footer .list {
+    text-align: center;
+    padding: 0 10px 20px;
+  }
+
 }
